@@ -1,6 +1,6 @@
 # Docker image file that describes an Centos7 image with PowerShell installed from Microsoft YUM Repo
 
-FROM microsoft/dotnet:2.1-sdk-alpine
+FROM microsoft/dotnet:2.2-sdk-alpine
 LABEL maintainer="PowerShell Team <powershellteam@hotmail.com>" 
 
 # Install dependencies and clean up
